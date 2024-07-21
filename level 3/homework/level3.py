@@ -1,0 +1,5 @@
+print(5+6)
+print(30-17)
+print(7*9)
+print(30/5)
+print(luka+gio)
