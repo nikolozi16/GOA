@@ -8,4 +8,4 @@ sum=num1
 for num in range(10):
    sum= sum + num
 
-print(sum)
+print(sum) 
