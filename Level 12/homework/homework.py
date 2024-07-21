@@ -16,3 +16,4 @@ elif user_input == "7":
     print("sunday")
 else:
     print("please enter corect number")
+
