@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1c68ff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            background-color: #61dafb;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #282c34;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #61dafb;
+            color: #060709;
+        }
+
+        ul.technology-list {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        ul.technology-list li {
+            margin-bottom: 10px;
+        }
+
+        ul.technology-list li a {
+            text-decoration: underline;
+            color: #61dafb;
+        }
+
+        footer {
+            background-color: #0037a4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Tech Blog</h1>
+        <p>Your go-to resource for the latest in technology</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="technologies">
+        <h2>Popular Technologies</h2>
+        <table>
+            <tr>
+                <th>Technology</th>
+                <th>Type</th>
+                <th>Popularity</th>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Programming Language</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Programming Language</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>React</td>
+                <td>JavaScript Library</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Node.js</td>
+                <td>Runtime Environment</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Docker</td>
+                <td>Containerization</td>
+                <td>Medium</td>
+            </tr>
+        </table>
+
+        <h2>Explore More Topics</h2>
+        <ul class="technology-list">
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript Documentation</a></li>
+            <li><a href="https://www.python.org/doc/" target="_blank">Python Documentation</a></li>
+            <li><a href="https://reactjs.org/docs/getting-started.html" target="_blank">React Documentation</a></li>
+            <li><a href="https://nodejs.org/en/docs/" target="_blank">Node.js Documentation</a></li>
+            <li><a href="https://docs.docker.com/" target="_blank">Docker Documentation</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tech Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
