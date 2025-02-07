@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin:  0%; /* ეს აუცილებელია, რომ სურათმა მთელი ფანჯარა დაფაროს */
+}
+
+body {
+    background-image: url(unnamed.jpg); /* ჩაანაცვლე სწორი ფაილის სახელით */
+    background-size: cover; /* სურათს ფარავს მთელ ეკრანს */
+    background-position: center; /* სურათი ცენტრში იქნება */
+    background-repeat: no-repeat; /* სურათი არ განმეორდება */
+}
+
+h1 {
+    position: relative;
+    left: 90vh;
+    color: white; 
+}

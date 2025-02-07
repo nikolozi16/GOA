@@ -1,0 +1,33 @@
+body{
+    background-image: 
+    linear-gradient( rgba(6, 159, 255, 0.808), rgb(28, 0, 77)),
+    linear-gradient(rgba(16, 171, 255, 0.741), rgba(57, 57, 91, 0.5)),
+    linear-gradient(rgba(187, 175, 193, 0.192), rgba(153, 16, 207, 0));
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+height: 100vh;
+}
+h1{
+  background-image: 
+  linear-gradient(rgb(144, 25, 134), rgba(201, 0, 0, 0.886));
+  color: rgb(239, 205, 13);
+}
+.cxeni{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    
+}
+
+.text{
+   color: rgb(255, 251, 7);
+    width: 47%;
+    position: fixed;
+    top: 60px;
+    left: 40px;
+    
+    
+}
