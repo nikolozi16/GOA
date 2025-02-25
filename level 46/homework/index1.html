@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Alignment</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #1f055c;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            background: #02c1e2;
+            border-radius: 10px;
+        }
+
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+            width: 200px;
+            height: 150px;
+            background: #b71313;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .small-box {
+            width: 30px;
+            height: 20px;
+            background: rgba(185, 237, 11, 0.825);
+            margin: 2px;
+        }
+
+        .align-content {
+            flex-direction: row;
+            align-content: space-between;
+        }
+
+        .justify-content {
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box align-content">
+            <div class="small-box"></div>
+            <div class="small-box"></div>
+            <div class="small-box"></div>
+            <div class="small-box"></div>
+            <div class="small-box"></div>
+            <div class="small-box"></div>
+            <div class="small-box"></div>
+        </div>
+        
+        <div class="box justify-content">
+            <div class="small-box"></div>
+            <div class="small-box"></div>
+            <div class="small-box"></div>
+        </div>
+    </div>
+
+</body>
+</html>

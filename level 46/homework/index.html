@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 90%;
+            height: 300px;
+            border: 2px solid black;
+            margin: 20px auto;
+            position: relative;
+        }
+
+        .box {
+            width: 80px;
+            height: 80px;
+            border: 2px solid red;
+            margin: 5px;
+        }
+
+        .special {
+            height: 120px;
+            border-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <div class="box"></div>
+        <div class="box special"></div> <!-- სპეციალური ელემენტი -->
+        <div class="box"></div>
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>
